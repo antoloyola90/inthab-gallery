@@ -54,11 +54,13 @@
 	max-width: none;
 }
 
-img.greyToColor {
+img.greyToColor{
     filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
     filter: gray; /* IE5+ */
     -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
     -webkit-transition: all .5s ease-in-out;
+    width:100px;
+	height:100px;
 }
 img.greyToColor:hover {
     filter: none;
